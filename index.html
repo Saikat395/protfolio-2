@@ -3,189 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Protfolio project 1</title>
-    <!-- link with css -->
-        <link rel="stylesheet" href="style.css">
-    <!-- font awesome cdn -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- Font family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
+     <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+     <!-- google font -->
+     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Spicy King</title>
 </head>
 <body>
+
+<div class="container">
+  <!-- header start here -->
     <header>
-        <h1 class="heading">Portfolio.</h1>
-        <nav class="navigation"> 
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+     <div class="row">
+        <div class="col-lg-4">
+          <div class="logo-div">
+            <a href="#">
+              <i class="logo fa fa-cutlery fa-3x" aria-hidden="true"></i>
+            </a>
+          </div>          
+        </div>
+
+        <div class="col-lg-8">
+          <nav>
+            <ul>
+              <li><a href="#">home</a></li>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">food menu</a></li>
+              <li><a href="#">contact</a></li>
+             </ul>
+          </nav>
+        </div>
+     </div>
     </header>
-    <!-- header end here -->
+  <!-- header end here -->
+ 
+    <main>
+      <!-- banner start here -->
 
-    <!-- home section start here -->
-    <section class="home" id="home">
-        <div class="home-contant">
-            <h3>Hello, It's Me</h3>
-            <h1>Saikat <span>Ahmed</span></h1>
-            <h3>And I'm a Frontend Developer</h3>
+       <section id="banner-section">
+        <div class="banner-contents">
+          <h1>Spicy King Restaurant</h1>
+          <P>20% discounts for take away</P>
+          <button class="btn">ORDER NOW</button>
+        </div>       
+       </section>
+
+    <!-- banner end here -->
+
+    <!-- about us start here -->
+ <section id="about-us">
+  <div class="row">
+  <div class="col-lg-12">
+    <div class="about-us-contents">
+      <h1>About Us</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, unde ratione et ad aspernatur, itaque consequatur natus eius accusantium ab voluptate architecto sapiente ullam! Voluptates necessitatibus accusamus quod harum, perspiciatis alias ipsam soluta eos. Labore perspiciatis fuga illum aut velit tenetur blanditiis nostrum facere ad, delectus voluptates et, similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, alias.</p>
+    </div>
+  </div>
+  </div>
+ </section>
+
+      <!-- about us end here -->
+
+      <!-- food menu section start here -->
+      <section id="food-menu">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+               <img src="cisco-lin-YMkX5NjURhk-unsplash.jpg" alt="">
+              
+              <div class="card-desc">
+               <h3 class="iteam-1">Chicken Fry</h3>
+               <p>Item No: 101</p>
+               <p>Rating: 4/5</p>
+               <p>Price: 450Tk.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+               <img src="cisco-lin-YMkX5NjURhk-unsplash.jpg" alt="">
+              
+              <div class="card-desc">
+               <h3 class="iteam-1">Chicken Fry</h3>
+               <p>Item No: 101</p>
+               <p>Rating: 4/5</p>
+               <p>Price: 450Tk.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+           
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+               <img src="cisco-lin-YMkX5NjURhk-unsplash.jpg" alt="">
+              
+              <div class="card-desc">
+               <h3 class="iteam-1">Chicken Fry</h3>
+               <p>Item No: 101</p>
+               <p>Rating: 4/5</p>
+               <p>Price: 450Tk.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+               <img src="cisco-lin-YMkX5NjURhk-unsplash.jpg" alt="">
+              
+              <div class="card-desc">
+               <h3 class="iteam-1">Chicken Fry</h3>
+               <p>Item No: 101</p>
+               <p>Rating: 4/5</p>
+               <p>Price: 450Tk.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- food menu section end here -->
+      
+      <!-- contact section start here -->
     
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus magnam, delectus culpa illum perferendis laborum amet pariatur maiores dolore.</p>
-            <div class="social-media">
-                <i class="fa-brands fa-facebook-f" class="fb"></i>
-                <i class="fa-brands fa-twitter" class="twitter"></i>
-                <i class="fa-brands fa-instagram" class="insta"></i>
-                <i class="fa-brands fa-linkedin" class="linkedin"></i>
+      <section id="contact">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="map">
+              <iframe class="maping" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58668.309062466535!2d90.69756085126556!3d23.21507608385255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3754fa95e14f47af%3A0x833c12e8c964f286!2sSakdi%20Rampur!5e0!3m2!1sen!2sbd!4v1716691875630!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="cv-btn">
-                <button>Download CV</button>
-            </div>   
+          </div>
+
+          <div class="col-lg-4">
+            <div class="contect-details">
+              <h3> Contect Details</h3><br>
+              <div>
+                <h5>Spicy king Resturant</h5>
+                <address>
+                  192 Elish Cottor 
+                  Chandpur,Bangladesh
+                </address>
+              </div>
+              <div><br>
+                <h5>Phone</h5>
+                <p>+8801403117742</p>
+              </div><br>
+              <div>
+                <h5>Opening Hours</h5>
+                <p>tue-sun: 5am to 11pm.</p>
+                Inc. Bank Holiday 
+              </div>
+            </div>
+          </div>
         </div>
-        <img src="home.png" alt="" class="home-img">
-    </section>
-        <!-- home section end here -->
+      </section>
 
-        <!-- About section start here -->
-    <section class="about" id="about">
-            <div class="about-imgs">
-                <img src="about.png" alt="" class="about-img">
-            </div>
-            <div class="about-contant">
-                <h1>About <span >Me</span></h1>
-                <h3>Frontend Developer!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quae dolor maxime blanditiis rem vitae, at, animi id iure non autem accusantium molestias totam reprehenderit! Et pariatur inventore illum nostrum perferendis neque. Quia explicabo, vero ipsa alias nihil, minima quae odit deleniti qui blanditiis nesciunt eius recusandae, rem aliquam dolorum.</p>
-                <button class="about-btn">Read More</button>
-            </div>
-    </section>
-        <!-- About section end here -->
-        
-        <!-- services section start here -->
-    <section class="services" id="services">
-        <div class="heading">
-            <h1 class="services-h1">Our <span>Services</span></h1>
+      <!-- contact section end here -->
+    </main>
+
+    <footer>
+     <div class="row">
+      <div class="col-lg-6">
+        <p>&copy;All right reservers by spicy king Restaurant</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="social-menu">
+          <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
         </div>
-        
-        <div class="services-contant">
-            <div class="web-develop">
-                <i class="fa-solid fa-code"></i>
-                <h1>Web Development</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores commodi consectetur mollitia unde eligendi doloremque eumpt .</p>
-                <button>Read More</button>
-            </div>
-
-            <div class="web-develop">
-                <i class="fa-solid fa-pencil"></i>
-                <h1>Graphic Design</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores commodi consectetur mollitia unde eligendi doloremque eumpt. </p>
-                <button>Read More</button>
-            </div>
-
-            <div class="web-develop">
-                <i class="fa-solid fa-signal"></i>
-                <h1>Digital Marketing</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores commodi consectetur mollitia unde eligendi doloremque eumpt. </p>
-                <button>Read More</button>
-            </div>
-
-        </div>
-    </section>
-        <!-- services section end here -->
-        
-        <!-- portfolio section start here -->
-    <section class="portfolio" id="portfolio">
-        <h2>Latest <span>Project</span></h2>
-
-        <div class="cards">
-
-            <div class="card">
-                    <img src="portfolio1.jpg" alt="">
-                <div class="layer">
-                    <h3>Web Design</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur.</p>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="portfolio2.jpg" alt="">
-            <div class="layer">
-                <h3>Web Design</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur.</p>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="portfolio3.jpg" alt="">
-        <div class="layer">
-            <h3>Web Design</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur.</p>
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </div>
-    </div>
-
-    <div class="card">
-        <img src="portfolio4.jpg" alt="">
-    <div class="layer">
-        <h3>Web Design</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur.</p>
-        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-    </div>
+      </div>
+     </div>
+    </footer>
 </div>
-
-            <div class="card">
-                <img src="portfolio5.jpg" alt="">
-            <div class="layer">
-                <h3>Web Design</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur.</p>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </div>
-        </div>
-
-            <div class="card">
-                <img src="portfolio6.jpg" alt="">
-            <div class="layer">
-                <h3>Web Design</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, aspernatur.</p>
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </div>
-        </div>
-            
-        </div>
-    </section>
-        <!-- portfolio section end here -->
-
-        <!-- contact section start here -->
-    <section class="contact" id="contact">
-        <h2>Contact <span>Me!</span></h2>
-        <div class="contact-form">
-            <div class="contact-details">
-                <input type="fullname" placeholder="Full Name" required>
-                <input type="Email" placeholder="Email Address" required>
-                <input type="number" placeholder="Mobile Number" required>
-                <input type="subject" placeholder="Email Subject" required>
-            </div>
-
-            <textarea name="" id="id" class="" cols="30" rows="10" placeholder="Your Messege"></textarea>
-            <button>Send Messege</button>
-        </div>
-        
-    </section>
-        <!-- contact section end here -->
-        
-        <div class="footer" >
-            <div class="footer-text">
-                <p>Copyright &copy; 2025 by Saikat | All Right Reserved.</p>
-            </div>
-            <div class="footer-icon" >
-                <a href="#home"><i class="fa-solid fa-arrow-up" ></i></a>
-            </div>
-        </div>
-
-    <script src="script.js"></script>
+ 
 </body>
 </html>
